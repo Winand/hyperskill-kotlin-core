@@ -1,3 +1,6 @@
+/**
+ * https://hyperskill.org/learn/step/25384
+ */
 package org.winand
 
 object Calculator {
@@ -14,4 +17,8 @@ object Calculator {
     }
 
     fun isEven(a: Int) = (a % 2) == 0
+
+    fun maxOf(a: Int, b: Int): Int =
+        if (a >= b) a
+        else b
 }
