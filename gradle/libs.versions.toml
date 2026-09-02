@@ -1,0 +1,6 @@
+[versions]
+mockk = "1.14.11"
+
+[libraries]
+# mockk vs mockk-jvm package https://share.google/aimode/DDT6dPqvih5x303iP
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk"}
